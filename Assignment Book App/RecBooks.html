@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!--My css file-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        img {
+            background-size: contain;
+            height: 150px;
+            width: 150px;
+            align-self: center;
+        }
+        .card-text
+        {
+          
+            font-size: small;
+        }
+        .col-4
+        {
+            width: 300px;
+        }
+        .row
+        {
+            align-items: center;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/Dashboard.html">MyBookApp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="/Dashboard.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/FavBooks.html">Favourite Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Author.html">Author</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/RecBooks.html">Recommended Books</a>
+                    </li>
+                    <li class="nav-item " id="logout">
+                        <a class="nav-link" href="/index.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Recommended Books </h1>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <img class="img-thumbnail" src="/book1.jpg" class="card-img-top" alt="shoppingapp">
+                    <div class="card-body">
+                        <h5 class="card-title">Nuclear Family</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img  class="img-thumbnail"src="/book2.jpg" class="card-img-top" alt="shoppingapp">
+                    <div class="card-body">
+                        <h5 class="card-title">Solar Bones</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img  class="img-thumbnail" src="/book3.jpg" class="card-img-top" alt="shoppingapp">
+                    <div class="card-body">
+                        <h5 class="card-title">The Thorn Birds</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <img class="img-thumbnail" src="/book4.jpg" class="card-img-top" alt="shoppingapp">
+                    <div class="card-body">
+                        <h5 class="card-title">Leave the World Behind</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img  class="img-thumbnail" src="/book5.jpg" class="card-img-top" alt="shoppingapp">
+                    <div class="card-body">
+                        <h5 class="card-title">Self potrait with Ghost</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img class="img-thumbnail"  src="/book6.jpg" class="card-img-top" alt="shoppingapp">
+                    <div class="card-body">
+                        <h5 class="card-title">Life is What you make it</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3"> 
+          <h5 class="text-uppercase">Connect with us anytime anywhere...</h5>
+          <p>Read and Organise Books anywhere andanytime..</p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+     <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Socials</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Facebook</a>
+            </li>
+            <li>
+              <a href="#!">Instagram</a>
+            </li>
+          </ul>
+        </div> 
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Socials</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">YouTube</a>
+            </li>
+            <li>
+              <a href="#!">Snapchat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+    <div class="footer-copyright text-center py-3">© 2022 Copyright:
+       MyBookAPP
+    </div>
+  </footer>
+  
+
+    <!--Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
